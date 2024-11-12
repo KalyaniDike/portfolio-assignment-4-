@@ -1,0 +1,47 @@
+header {
+  border: solid;
+  height: 90px;
+  width: 20px;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+img {
+  height: 80px;
+  width: 200px;
+}
+.col-xl-6 {
+  border: solid;
+  border-radius: 30px;
+  height: 200px;
+  width: 100px;
+  display: inline;
+}
+.col-xl-4 {
+  border: solid;
+  border-radius: 300px;
+  height: 100;
+  width: 80;
+  display: inline;
+}
+.about {
+  border: solid;
+  border-radius: 30px;
+}
+.carousel-inner {
+  border: solid;
+  border-radius: 30px;
+}
+.carousel-item {
+  border: solid;
+  border-radius: 30px;
+}
+.col-xl-3 {
+  height: 200px;
+  width: 25%;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-top: 50px;
+}

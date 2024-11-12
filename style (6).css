@@ -1,0 +1,102 @@
+.header img {
+  border: solid;
+  height: 100px;
+
+  border-radius: 20%;
+  width: 250;
+  margin: 10px;
+}
+.header img {
+  height: 10px;
+  width: 50px;
+}
+
+.col-xl-4 {
+  padding-top: 15px;
+  height: 100;
+  width: 80;
+  display: inline;
+}
+.about {
+  border: solid;
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.about h4 {
+  padding-top: 10px;
+}
+.carousel-inner {
+  border-radius: 30px;
+}
+.carousel-item {
+  border: solid;
+  border-radius: 30px;
+}
+.col-xl-3 {
+  height: 200px;
+  width: 25%;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.tab-content {
+  display: flex;
+}
+.con1 {
+  padding: 20px;
+  margin: 20px;
+}
+.d1 {
+  border: solid;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .last img {
+    width: 5%;
+  }
+  body {
+    flex-direction: column;
+  }
+  .d1 {
+    flex-direction: column;
+    padding-top: 6px;
+  }
+  .container {
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .d2 img {
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 1px;
+  }
+  .sil2 img {
+    
+    width: 50px;
+
+  }
+  .sil3 img {
+    width: 50px;
+  }
+  .sil1 {
+    padding-right: 50px;
+    text-align: center;
+  }
+  .sil2 {
+    flex-direction: column;
+    padding-right: 50px;
+  }
+  .sil3 {
+    padding-right: 50px;
+    text-align: center;
+  }
+  .sil1 img {
+    text-align: center;
+    width: 50px;
+  }
+}
